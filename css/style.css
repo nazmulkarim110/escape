@@ -136,6 +136,10 @@
     transition: .3s;
 }
 
+.btn:focus {
+    outline: 0;
+}
+
 /* header section end */
 
 /* development section end*/
