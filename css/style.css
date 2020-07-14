@@ -51,6 +51,20 @@
     background-position: bottom center;
     background-repeat: no-repeat;
     overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .3;
+    z-index: -1;
 }
 
 .wrapper {
